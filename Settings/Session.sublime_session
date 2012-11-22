@@ -1,13 +1,13 @@
 {
 	"folder_history":
 	[
+		"/home/congnt3/workspace/notserver"
 	],
-	"last_window_id": 1,
+	"last_window_id": 3,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 0.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
@@ -15,17 +15,18 @@
 				[
 				]
 			},
-			"buffers":
-			[
-			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 0.0,
+				"height": 75.0,
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
 				],
-				"width": 0.0
+				"width": 449.0
 			},
 			"console":
 			{
@@ -42,6 +43,7 @@
 			},
 			"file_history":
 			[
+				"/home/congnt3/workspace/notserver/main.py"
 			],
 			"find":
 			{
@@ -73,14 +75,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"groups":
-			[
-				{
-					"sheets":
-					[
-					]
-				}
-			],
 			"incremental_find":
 			{
 				"height": 0.0
@@ -112,7 +106,6 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,1,0,0,0,0,0,0,0,1366,768",
 			"replace":
 			{
 				"height": 0.0
@@ -139,15 +132,409 @@
 			"show_tabs": true,
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "main.py",
+					"settings":
+					{
+						"buffer_size": 3149,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "210.245.0.187",
+					"settings":
+					{
+						"buffer_size": 13,
+						"line_ending": "Unix",
+						"name": "210.245.0.187"
+					}
+				},
+				{
+					"file": "/home/congnt3/Downloads/sockjs.js",
+					"settings":
+					{
+						"buffer_size": 77234,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "test_xhr.py",
+					"settings":
+					{
+						"buffer_size": 187,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"codeintel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"enab	",
+						"Package Control: Enable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"rope",
+						"Rope: Regenerate Global Module Cache"
+					],
+					[
+						"show do",
+						"Rope: Show Documentation"
+					],
+					[
+						"show d",
+						"Rope: Show Documentation"
+					],
+					[
+						"project",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"new proj",
+						"Rope: New Project"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"rege",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"rope new",
+						"Rope: New Project"
+					],
+					[
+						"regepr",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"regena",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"intel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
+				"/home/congnt3/workspace/notserver/test_xhr.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt",
+				"/home/congnt3/workspace/notserver/notserver.sublime-project",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/notserver/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"connid",
+					"_server",
+					"entropy",
+					"XhrReceiver",
+					"SockJS",
+					"run",
+					"run\\",
+					"trans_url",
+					"protocols",
+					"protocols(",
+					"protocols",
+					"protocols\n\n\n\n\nprotocols\nprotocols",
+					"websocket",
+					"ChatRouter"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "main.py",
+							"settings":
+							{
+								"buffer_size": 3149,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										253,
+										253
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"settings":
+							{
+								"buffer_size": 13,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "210.245.0.187",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/congnt3/Downloads/sockjs.js",
+							"settings":
+							{
+								"buffer_size": 77234,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										38894,
+										38894
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 21454.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "test_xhr.py",
+							"settings":
+							{
+								"buffer_size": 187,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										162,
+										162
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"output.rope_python_documentation":
+			{
+				"height": 112.0
+			},
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 1,
-			"workspace_name": ""
+			"window_id": 2,
+			"workspace_name": "/home/congnt3/workspace/notserver/notserver.sublime-project"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/home/congnt3/workspace/notserver/notserver.sublime-project"
 		]
 	}
 }

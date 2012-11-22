@@ -23,6 +23,9 @@
 	// or absolute path to a binary e.g. `/go/bin/gocode`
 	"gocode_cmd": "gocode",
 
+	// whether or not gocode should show builtin types and functions in the completion
+	"complete_builtins": false,
+
 	// Whether or not gsfmt is enabled
 	"fmt_enabled": true,
 
@@ -61,6 +64,12 @@
 
 	// whether or not to include Test*, Benchmark* and Example* functions in the auto-completion list
 	"autocomplete_tests": false,
+
+	// whether or not to show an expanded(closure) version of func types in the auto-completion list
+	// e.g. `type Fun func(i int)`
+	// will result in two entries `Fun` and `Fun {}`
+	// expanding to `Fun` and `func(i) {...}` respectively
+	"autocomplete_closures": false,
 
 	"margo_cmd": ["MarGo"],
 	// the tcp address on which MarGo listen/should listen

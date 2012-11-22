@@ -4,8 +4,7 @@ import json
 import os
 import re
 import gscommon as gs
-import gsshell
-import gsbundle
+import mg9
 from os.path import basename
 from os.path import dirname
 
@@ -140,21 +139,11 @@ class GoSublime(sublime_plugin.EventListener):
 		return r.end() if r and r.end() < end else -1
 
 	def complete(self, fn, offset, src, func_name_only):
-		global last_gopath
-		gopath = gs.env().get('GOPATH')
-		if gopath and gopath != last_gopath:
-			out, _, _ = gsshell.run(cmd=['go', 'env', 'GOOS', 'GOARCH'])
-			vars = out.strip().split()
-			if len(vars) == 2:
-				last_gopath = gopath
-				libpath =  os.path.join(gopath, 'pkg', '_'.join(vars))
-				gsshell.run(cmd=['gocode', 'set', 'lib-path', libpath], cwd=gsbundle.BUNDLE_GOBIN)
-
 		comps = []
-		cmd = gs.setting('gocode_cmd', 'gocode')
 		offset = 'c%s' % offset
-		args = [cmd, "-f=json", "autocomplete", fn, offset]
-		js, err, _ = gsshell.run(cmd=args, input=src)
+		autocomplete_tests = gs.setting('autocomplete_tests', False)
+		autocomplete_closures = gs.setting('autocomplete_closures', False)
+		js, err, _ = mg9.gocode(["-f=json", "autocomplete", fn, offset], input=src)
 		if err:
 			gs.notice(DOMAIN, err)
 		else:
@@ -165,29 +154,57 @@ class GoSublime(sublime_plugin.EventListener):
 						tn = ent['type']
 						cn = ent['class']
 						nm = ent['name']
-						sfx = self.typeclass_prefix(cn, tn)
-						if cn == 'func':
+						is_func = (cn == 'func')
+						is_func_type = (cn == 'type' and tn.startswith('func('))
+
+						if is_func:
 							if nm in ('main', 'init'):
 								continue
-							act = gs.setting('autocomplete_tests', False)
-							if not act and nm.startswith(('Test', 'Benchmark', 'Example')):
+
+							if not autocomplete_tests and nm.startswith(('Test', 'Benchmark', 'Example')):
 								continue
 
+						if is_func or is_func_type:
+							s_sfx = u'\u0282'
+							t_sfx = gs.CLASS_PREFIXES.get('type', '')
+							f_sfx = gs.CLASS_PREFIXES.get('func', '')
 							params, ret = declex(tn)
+							decl = []
+							for i, p in enumerate(params):
+								n, t = p
+								if t.startswith('...'):
+									n = '...'
+								decl.append('${%d:%s}' % (i+1, n))
+							decl = ', '.join(decl)
 							ret = ret.strip('() ')
-							if func_name_only:
-								a = nm
+
+							if is_func:
+								if func_name_only:
+									comps.append((
+										'%s\t%s %s' % (nm, ret, f_sfx),
+										nm,
+									))
+								else:
+									comps.append((
+										'%s\t%s %s' % (nm, ret, f_sfx),
+										'%s(%s)' % (nm, decl),
+									))
 							else:
-								a = []
-								for i, p in enumerate(params):
-									n, t = p
-									if t.startswith('...'):
-										n = '...'
-									a.append('${%d:%s}' % (i+1, n))
-								a = '%s(%s)' % (nm, ', '.join(a))
-							comps.append(('%s\t%s %s' % (nm, ret, sfx), a))
+								comps.append((
+									'%s\t%s %s' % (nm, tn, t_sfx),
+									nm,
+								))
+
+								if autocomplete_closures:
+									comps.append((
+										'%s {}\tfunc() {...} %s' % (nm, s_sfx),
+										'%s {\n\t${0}\n}' % tn,
+									))
 						elif cn != 'PANIC':
-							comps.append(('%s\t%s %s' % (nm, tn, sfx), nm))
+							comps.append((
+								'%s\t%s %s' % (nm, tn, self.typeclass_prefix(cn, tn)),
+								nm,
+							))
 			except KeyError as e:
 				gs.notice(DOMAIN, 'Error while running gocode, possibly malformed data returned: %s' % e)
 			except ValueError as e:
@@ -239,7 +256,7 @@ class GsShowCallTip(sublime_plugin.TextCommand):
 
 	def run(self, edit):
 		view = self.view
-		pt = view.sel()[0].begin()
+		pt = gs.sel(view).begin()
 		if view.substr(sublime.Region(pt-1, pt)) == '(':
 			depth = 1
 		else:
@@ -363,5 +380,4 @@ class GsShowCallTip(sublime_plugin.TextCommand):
 
 		s = '// %s %s\n%s' % (c['name'], c['class'], c['type'])
 		self.show_hint(s)
-
 

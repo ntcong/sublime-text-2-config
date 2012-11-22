@@ -2,8 +2,10 @@ import _ast
 from _ast import *
 
 from rope.base import fscommands
+from rope.base.utils import weight_cache
 
 
+@weight_cache
 def parse(source, filename='<string>'):
     # NOTE: the raw string should be given to `compile` function
     if isinstance(source, unicode):

@@ -1,9 +1,11 @@
 {
-	"auto_upgrade_last_run": 1350403179,
+	"auto_upgrade_last_run": 1353578574,
 	"installed_packages":
 	[
 		"Git",
 		"GoSublime",
+		"Package Control",
+		"SublimeCodeIntel",
 		"SublimeRope"
 	]
 }
