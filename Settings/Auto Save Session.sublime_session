@@ -1,9 +1,12 @@
 {
 	"folder_history":
 	[
-		"/home/congnt3/workspace/notserver"
+		"/home/congnt3/workspace/sockjs-protocol",
+		"/home/congnt3/workspace/notserver",
+		"/home/congnt3/workspace/bacnam",
+		"/media/congnt3/Data/bacnam"
 	],
-	"last_window_id": 3,
+	"last_window_id": 8,
 	"settings":
 	{
 		"new_window_height": 0.0,
@@ -13,196 +16,142 @@
 			{
 				"selected_items":
 				[
+					[
+						"sum",
+						"sum_all	(local, instance)"
+					],
+					[
+						"IPv4",
+						"IPv4Network	(imported, class)"
+					],
+					[
+						"IPv",
+						"IPv4Network  (class)"
+					],
+					[
+						"req",
+						"req_subnet=	(parameter_keyword, instance)"
+					],
+					[
+						"lines",
+						"line_pos	(local, instance)"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 75.0,
+				"height": 159.0,
 				"selected_items":
 				[
 					[
-						"install",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 449.0
-			},
-			"console":
-			{
-				"height": 139.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/congnt3/workspace/notserver/main.py"
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
+						"git diff",
+						"Git: Diff All"
+					],
 					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true
-		},
-		"new_window_width": 0.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "main.py",
-					"settings":
-					{
-						"buffer_size": 3149,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "210.245.0.187",
-					"settings":
-					{
-						"buffer_size": 13,
-						"line_ending": "Unix",
-						"name": "210.245.0.187"
-					}
-				},
-				{
-					"file": "/home/congnt3/Downloads/sockjs.js",
-					"settings":
-					{
-						"buffer_size": 77234,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "test_xhr.py",
-					"settings":
-					{
-						"buffer_size": 187,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 36,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 916,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 392.0,
-				"selected_items":
-				[
+						"addcur",
+						"Git: Add Current File"
+					],
+					[
+						"amend",
+						"Git: Amend Commit"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"add",
+						"Git: Add Current File"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"add curen",
+						"Git: Add Current File"
+					],
+					[
+						"status",
+						"Git: Status"
+					],
+					[
+						"add cur	",
+						"Git: Add Current File"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"addcurn",
+						"Git: Add Current File"
+					],
+					[
+						"addcu",
+						"Git: Add Current File"
+					],
+					[
+						"amed",
+						"Git: Amend Commit"
+					],
+					[
+						"amen",
+						"Git: Amend Commit"
+					],
+					[
+						"co",
+						"Git: Commit"
+					],
+					[
+						"add cur",
+						"Git: Add Current File"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"am",
+						"Git: Amend Commit"
+					],
+					[
+						"ame",
+						"Git: Amend Commit"
+					],
+					[
+						"git com",
+						"Git: Commit"
+					],
+					[
+						"git add cu	",
+						"Git: Add Current File"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git commit ",
+						"Git: Amend Commit"
+					],
+					[
+						"git statu",
+						"Git: Status"
+					],
+					[
+						"git d",
+						"Git: Diff All"
+					],
+					[
+						"diff",
+						"Git: Diff All"
+					],
 					[
 						"ena",
 						"Package Control: Enable Package"
@@ -298,9 +247,18 @@
 			"file_history":
 			[
 				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
+				"/home/congnt3/workspace/bacnam/bacnam_api_prev.py",
+				"/home/congnt3/workspace/bacnam/bacnam.sh",
+				"/home/congnt3/workspace/bacnam/bacnam-api.py",
+				"/home/congnt3/workspace/bacnam/run.py",
+				"/home/congnt3/workspace/bacnam/bacnam.py",
+				"/home/congnt3/workspace/bacnam/vnnic_raw.txt",
+				"/media/congnt3/Data/workspace/fptplay/manage.py",
+				"/home/congnt3/workspace/notserver/.gitreview",
+				"/home/congnt3/workspace/bacnam/.gitreview",
 				"/home/congnt3/workspace/notserver/test_xhr.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
@@ -330,6 +288,484 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"REDIS_VNIX_KEY",
+					"latency_key",
+					"SUBNET_KE",
+					"xhr",
+					"\n    ",
+					"LATENCY",
+					"json",
+					", di",
+					"diff",
+					"subnet",
+					"pickle",
+					"json",
+					"pickle",
+					"REDIS_SUBNET_CHANGED_KEY",
+					"#",
+					"=======",
+					"num",
+					"get_region",
+					"get_csv",
+					"set_dict",
+					"convert_set_to_list(",
+					"convert_set_to_list",
+					"get_vnix_list",
+					"REDIS_LATENCY_KEY",
+					"REDIS_SUBNET_KEY",
+					"connid",
+					"_server",
+					"entropy",
+					"XhrReceiver",
+					"SockJS",
+					"run",
+					"run\\",
+					"trans_url",
+					"protocols",
+					"protocols(",
+					"protocols",
+					"protocols\n\n\n\n\nprotocols\nprotocols",
+					"websocket",
+					"ChatRouter"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 152.0
+			},
+			"output.git":
+			{
+				"height": 124.0
+			},
+			"output.rope_python_documentation":
+			{
+				"height": 112.0
+			},
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"cur",
+						"cur_res	(local, instance)"
+					],
+					[
+						"inpt",
+						"input_data	(local, instance)"
+					],
+					[
+						"ascii",
+						"ascii_lowercase  (variable)"
+					],
+					[
+						"IPv4",
+						"IPv4Network	(imported, class)"
+					],
+					[
+						"IPv",
+						"IPv4Network  (class)"
+					],
+					[
+						"req",
+						"req_subnet=	(parameter_keyword, instance)"
+					],
+					[
+						"lines",
+						"line_pos	(local, instance)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/congnt3/workspace/checkio.py",
+					"settings":
+					{
+						"buffer_size": 369,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 203,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 54.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"rename",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"addcur",
+						"Git: Add Current File"
+					],
+					[
+						"amend",
+						"Git: Amend Commit"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"add",
+						"Git: Add Current File"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"add curen",
+						"Git: Add Current File"
+					],
+					[
+						"status",
+						"Git: Status"
+					],
+					[
+						"add cur	",
+						"Git: Add Current File"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"addcurn",
+						"Git: Add Current File"
+					],
+					[
+						"addcu",
+						"Git: Add Current File"
+					],
+					[
+						"amed",
+						"Git: Amend Commit"
+					],
+					[
+						"amen",
+						"Git: Amend Commit"
+					],
+					[
+						"co",
+						"Git: Commit"
+					],
+					[
+						"add cur",
+						"Git: Add Current File"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"am",
+						"Git: Amend Commit"
+					],
+					[
+						"ame",
+						"Git: Amend Commit"
+					],
+					[
+						"git com",
+						"Git: Commit"
+					],
+					[
+						"git add cu	",
+						"Git: Add Current File"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git commit ",
+						"Git: Amend Commit"
+					],
+					[
+						"git statu",
+						"Git: Status"
+					],
+					[
+						"git d",
+						"Git: Diff All"
+					],
+					[
+						"diff",
+						"Git: Diff All"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"codeintel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"enab	",
+						"Package Control: Enable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"rope",
+						"Rope: Regenerate Global Module Cache"
+					],
+					[
+						"show do",
+						"Rope: Show Documentation"
+					],
+					[
+						"show d",
+						"Rope: Show Documentation"
+					],
+					[
+						"project",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"new proj",
+						"Rope: New Project"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"rege",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"rope new",
+						"Rope: New Project"
+					],
+					[
+						"regepr",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"regena",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"intel",
+						"SublimeCodeIntel: Reset"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/usr/lib/python2.7/cmd.py",
+				"/home/congnt3/workspace/checkio.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/congnt3/workspace/bacnam/bacnam_api_prev.py",
+				"/home/congnt3/workspace/bacnam/bacnam.sh",
+				"/home/congnt3/workspace/bacnam/bacnam-api.py",
+				"/home/congnt3/workspace/bacnam/run.py",
+				"/home/congnt3/workspace/bacnam/bacnam.py",
+				"/home/congnt3/workspace/bacnam/vnnic_raw.txt",
+				"/media/congnt3/Data/workspace/fptplay/manage.py",
+				"/home/congnt3/workspace/notserver/.gitreview",
+				"/home/congnt3/workspace/bacnam/.gitreview",
+				"/home/congnt3/workspace/notserver/test_xhr.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt",
+				"/home/congnt3/workspace/notserver/notserver.sublime-project",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/notserver/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"line12",
+					"line1",
+					"line1 ",
+					"line1",
+					"<",
+					"cur_sumbol",
+					":'(",
+					"'(0,",
+					"':'",
+					" '",
+					"REDIS_VNIX_KEY",
+					"latency_key",
+					"SUBNET_KE",
+					"xhr",
+					"\n    ",
+					"LATENCY",
+					"json",
+					", di",
+					"diff",
+					"subnet",
+					"pickle",
+					"json",
+					"pickle",
+					"REDIS_SUBNET_CHANGED_KEY",
+					"#",
+					"=======",
+					"num",
+					"get_region",
+					"get_csv",
+					"set_dict",
+					"convert_set_to_list(",
+					"convert_set_to_list",
+					"get_vnix_list",
+					"REDIS_LATENCY_KEY",
+					"REDIS_SUBNET_KEY",
 					"connid",
 					"_server",
 					"entropy",
@@ -361,105 +797,23 @@
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "main.py",
+							"file": "/home/congnt3/workspace/checkio.py",
 							"settings":
 							{
-								"buffer_size": 3149,
+								"buffer_size": 369,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										253,
-										253
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"settings":
-							{
-								"buffer_size": 13,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"auto_name": "210.245.0.187",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/congnt3/Downloads/sockjs.js",
-							"settings":
-							{
-								"buffer_size": 77234,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										38894,
-										38894
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 21454.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "test_xhr.py",
-							"settings":
-							{
-								"buffer_size": 187,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										162,
-										162
+										369,
+										369
 									]
 								],
 								"settings":
@@ -473,52 +827,112 @@
 							"type": "text"
 						},
 						{
-							"buffer": 4,
-							"file": "/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
+							"buffer": 1,
+							"file": "/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 36,
+								"buffer_size": 203,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										34,
-										34
+										165,
+										165
 									]
 								],
 								"settings":
 								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
 									"syntax": "Packages/JavaScript/JSON.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
-							"settings":
-							{
-								"buffer_size": 916,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										846,
-										846
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -562,7 +976,11 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 112.0
+				"height": 152.0
+			},
+			"output.git":
+			{
+				"height": 124.0
 			},
 			"output.rope_python_documentation":
 			{
@@ -596,8 +1014,8 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 2,
-			"workspace_name": "/home/congnt3/workspace/notserver/notserver.sublime-project"
+			"window_id": 8,
+			"workspace_name": ""
 		}
 	],
 	"workspaces":
