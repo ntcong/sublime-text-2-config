@@ -1,4 +1,5 @@
 {
+	"detect_slow_plugins": 0,
 	"font_face": "Source Code Pro",
 	"font_size": 11,
 	"ignored_packages":

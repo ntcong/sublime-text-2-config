@@ -36,10 +36,11 @@ except:
 	environ9 = {}
 	_env_lck = threading.Lock()
 	_default_settings = {
+		"_debug": False,
 		"env": {},
 		"gscomplete_enabled": False,
-		"gocode_cmd": "",
 		"complete_builtins": False,
+		"autocomplete_builtins": False,
 		"fmt_enabled": False,
 		"fmt_tab_indent": True,
 		"fmt_tab_width": 8,
@@ -50,7 +51,6 @@ except:
 		"autocomplete_snippets": False,
 		"autocomplete_tests": False,
 		"autocomplete_closures": False,
-		"margo_cmd": [],
 		"margo_addr": "",
 		"on_save": [],
 		"shell": [],
@@ -202,15 +202,19 @@ def println(*a):
 	print(l)
 	return l
 
+def debug(domain, *a):
+	if setting('_debug') is True:
+		print('\n** DEBUG ** %s ** %s **:' % (domain, datetime.datetime.now()))
+		for s in a:
+			print(ustr(s).strip())
+		print('--------------------------------')
+
 def log(*a):
 	try:
 		LOGFILE.write(println(*a))
 		LOGFILE.flush()
 	except Exception:
 		pass
-
-
-debug = log
 
 def notice(domain, txt):
 	txt = "%s: %s" % (domain, txt)
@@ -340,7 +344,8 @@ def env(m={}):
 
 	# do this again based on updated vars
 	roots = lst(e.get('GOPATH', '').split(os.pathsep), e.get('GOROOT', ''))
-	add_path = e.get('PATH', '').split(os.pathsep)
+	add_path = [home_path('bin')]
+	add_path.extend(e.get('PATH', '').split(os.pathsep))
 	for s in roots:
 		if s:
 			s = os.path.join(s, 'bin')
@@ -625,11 +630,19 @@ def json_encode(a):
 def attr(k, d=None):
 	with _attr_lck:
 		v = _attr.get(k, None)
-	return d if v is None else copy.copy(v)
+		return d if v is None else copy.copy(v)
 
 def set_attr(k, v):
 	with _attr_lck:
 		_attr[k] = v
+
+def del_attr(k):
+	with _attr_lck:
+		try:
+			del _attr[k]
+			return True
+		except:
+			return False
 
 # note: this functionality should not be used inside this module
 # continue to use the try: X except: X=Y hack
