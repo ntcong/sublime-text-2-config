@@ -51,11 +51,13 @@ except:
 		"autocomplete_snippets": False,
 		"autocomplete_tests": False,
 		"autocomplete_closures": False,
+		"autocomplete_filter_name": "",
 		"margo_addr": "",
 		"on_save": [],
 		"shell": [],
 		"default_snippets": [],
 		"snippets": [],
+		"fn_exclude_prefixes": [".", "_"],
 	}
 	_settings = copy.copy(_default_settings)
 
@@ -216,10 +218,32 @@ def log(*a):
 	except Exception:
 		pass
 
+def notify(domain, txt):
+	txt = "%s: %s" % (domain, txt)
+	status_message(txt)
+
 def notice(domain, txt):
+	error(domain, txt)
+
+def error(domain, txt):
 	txt = "%s: %s" % (domain, txt)
 	log(txt)
 	status_message(txt)
+
+def error_traceback(domain, status_txt=''):
+	tb = traceback().strip()
+	if status_txt:
+		prefix = '%s\n' % status_txt
+	else:
+		prefix = ''
+		i = tb.rfind('\n')
+		if i > 0:
+			status_txt = tb[i:].strip()
+		else:
+			status_txt = tb
+
+	log("%s: %s%s" % (domain, prefix, tb))
+	status_message("%s: %s" % (domain, status_txt))
 
 def notice_undo(domain, txt, view, should_undo):
 	def cb():
@@ -355,7 +379,12 @@ def env(m={}):
 	if os_is_windows():
 		l = ['C:\\Go\\bin']
 	else:
-		l = ['/usr/local/go/bin', '/usr/bin']
+		l = [
+			'/usr/local/go/bin',
+			'/usr/local/opt/go/bin',
+			'/usr/local/bin',
+			'/usr/bin',
+		]
 
 	for s in l:
 		if s not in add_path:
@@ -496,21 +525,22 @@ def status_message(s):
 		sm_tm = datetime.datetime.now()
 
 def begin(domain, message, set_status=True, cancel=None):
+	global sm_task_counter
+
 	if message and set_status:
 		status_message('%s: %s' % (domain, message))
 
-	id = uuid.uuid4()
-	dat = {
-		'start': datetime.datetime.now(),
-		'domain': domain,
-		'message': message,
-		'cancel': cancel,
-	}
-
 	with sm_lck:
-		sm_tasks[id] = dat
+		sm_task_counter += 1
+		tid = 't%d' % sm_task_counter
+		sm_tasks[tid] = {
+			'start': datetime.datetime.now(),
+			'domain': domain,
+			'message': message,
+			'cancel': cancel,
+		}
 
-	return id
+	return tid
 
 def end(task_id):
 	with sm_lck:
@@ -526,6 +556,20 @@ def task(task_id, default=None):
 def clear_tasks():
 	with sm_lck:
 		sm_tasks = {}
+
+def task_list():
+	with sm_lck:
+		return sorted(sm_tasks.iteritems())
+
+def cancel_task(tid):
+	t = task(tid)
+	if t and t['cancel']:
+		s = 'are you sure you want to end task: #%s %s: %s' % (tid, t['domain'], t['message'])
+		if sublime.ok_cancel_dialog(s):
+			t['cancel']()
+
+		return True
+	return False
 
 def show_quick_panel(items, cb=None):
 	def f():
@@ -639,10 +683,16 @@ def set_attr(k, v):
 def del_attr(k):
 	with _attr_lck:
 		try:
+			v = _attr[k]
+		except Exception:
+			v = None
+
+		try:
 			del _attr[k]
-			return True
-		except:
-			return False
+		except Exception:
+			pass
+
+		return v
 
 # note: this functionality should not be used inside this module
 # continue to use the try: X except: X=Y hack
@@ -665,6 +715,7 @@ try:
 	st2_status_message
 except:
 	sm_lck = threading.Lock()
+	sm_task_counter = 0
 	sm_tasks = {}
 	sm_frame = 0
 	sm_frames = (
