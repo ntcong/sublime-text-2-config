@@ -564,12 +564,13 @@ class PyDocExtractor(object):
 
     def _get_super_methods(self, pyclass, name):
         result = []
-        for super_class in pyclass.get_superclasses():
-            if name in super_class:
-                function = super_class[name].get_object()
-                if isinstance(function, pyobjects.AbstractFunction):
-                    result.append(function)
-            result.extend(self._get_super_methods(super_class, name))
+        if hasattr(pyclass,'get_superclasses'):
+            for super_class in pyclass.get_superclasses():
+                if name in super_class:
+                    function = super_class[name].get_object()
+                    if isinstance(function, pyobjects.AbstractFunction):
+                        result.append(function)
+                result.extend(self._get_super_methods(super_class, name))
         return result
 
     def _get_function_signature(self, pyfunction, add_module=False):

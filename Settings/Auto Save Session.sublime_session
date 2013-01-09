@@ -1,0 +1,1705 @@
+{
+	"folder_history":
+	[
+		"/home/congnt3/workspace/io-2012-slides",
+		"/home/congnt3/workspace/aopt",
+		"/home/congnt3/workspace/flask/microblog",
+		"/home/congnt3/workspace/sockjs-protocol",
+		"/home/congnt3/workspace/notserver",
+		"/home/congnt3/workspace/bacnam",
+		"/media/congnt3/Data/bacnam"
+	],
+	"last_window_id": 15,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"confi",
+						"config_template_name"
+					],
+					[
+						"list",
+						"list_device	(local, instance)"
+					],
+					[
+						"F",
+						"FileHandler	(imported, instance)"
+					],
+					[
+						"Sca",
+						"ScannerError	(global, class)"
+					],
+					[
+						"templ",
+						"template_list	(local, instance)"
+					],
+					[
+						"has",
+						"has_invalid	(local, instance)"
+					],
+					[
+						"var",
+						"variable_list	(local, instance)"
+					],
+					[
+						"va",
+						"variable_list	(local, instance)"
+					],
+					[
+						"task",
+						"task_list	(local, instance)"
+					],
+					[
+						"ser",
+						"service_id"
+					],
+					[
+						"list_",
+						"list_service_task"
+					],
+					[
+						"Ser",
+						"ServiceTask	(imported, instance)"
+					],
+					[
+						"No",
+						"NoRecordException	(imported, class)"
+					],
+					[
+						"add",
+						"add_new_service_task"
+					],
+					[
+						"Serv",
+						"ServiceTaskForm	(global, class)"
+					],
+					[
+						"Submi",
+						"SubmitField	(imported, instance)"
+					],
+					[
+						"Templa",
+						"TemplateSyntaxError"
+					],
+					[
+						"Template",
+						"TemplateLoader"
+					],
+					[
+						"property",
+						"property	(builtin, function)"
+					],
+					[
+						"cur",
+						"cur_res	(local, instance)"
+					],
+					[
+						"inpt",
+						"input_data	(local, instance)"
+					],
+					[
+						"ascii",
+						"ascii_lowercase  (variable)"
+					],
+					[
+						"IPv4",
+						"IPv4Network	(imported, class)"
+					],
+					[
+						"IPv",
+						"IPv4Network  (class)"
+					],
+					[
+						"req",
+						"req_subnet=	(parameter_keyword, instance)"
+					],
+					[
+						"lines",
+						"line_pos	(local, instance)"
+					]
+				]
+			},
+			"build_system": "Packages/Python/Python.sublime-build",
+			"command_palette":
+			{
+				"height": 138.0,
+				"selected_items":
+				[
+					[
+						"diff",
+						"Git: Diff All"
+					],
+					[
+						"ropenew",
+						"Rope: New Project"
+					],
+					[
+						"addcu",
+						"Git: Add Current File"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"add cure",
+						"Git: Add Current File"
+					],
+					[
+						"add cur",
+						"Git: Add Current File"
+					],
+					[
+						"diffcu",
+						"Git: Diff Current File"
+					],
+					[
+						"status",
+						"Git: Status"
+					],
+					[
+						"checkout",
+						"Git: Checkout Current File"
+					],
+					[
+						"d",
+						"Git: Diff All"
+					],
+					[
+						"addcur",
+						"Git: Add Current File"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"rename",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"incdif",
+						"Local History: Incremental Diff"
+					],
+					[
+						"local",
+						"Local History: Incremental Diff"
+					],
+					[
+						"localhist",
+						"Local History: Incremental Diff"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"quic o",
+						"Git: Quick Commit"
+					],
+					[
+						"add curen",
+						"Git: Add Current File"
+					],
+					[
+						"add c",
+						"Git: Add Current File"
+					],
+					[
+						"diff al",
+						"Git: Diff All"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"add cu",
+						"Git: Add Current File"
+					],
+					[
+						"addcure",
+						"Git: Add Current File"
+					],
+					[
+						"amend",
+						"Git: Amend Commit"
+					],
+					[
+						"amen",
+						"Git: Amend Commit"
+					],
+					[
+						"add curent",
+						"Git: Add Current File"
+					],
+					[
+						"commt",
+						"Git: Commit"
+					],
+					[
+						"st",
+						"Git: Status"
+					],
+					[
+						"add",
+						"Git: Add Current File"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"rope",
+						"Package Control: Enable Package"
+					],
+					[
+						"intel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"reglo",
+						"Rope: Regenerate Global Module Cache"
+					],
+					[
+						"rope regol",
+						"Rope: Regenerate Global Module Cache"
+					],
+					[
+						"codeintel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"roper",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"enabl",
+						"Package Control: Enable Package"
+					],
+					[
+						"disablep",
+						"SublimeCodeIntel: Disable Plugin"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"add cur	",
+						"Git: Add Current File"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"addcurn",
+						"Git: Add Current File"
+					],
+					[
+						"amed",
+						"Git: Amend Commit"
+					],
+					[
+						"co",
+						"Git: Commit"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"am",
+						"Git: Amend Commit"
+					],
+					[
+						"ame",
+						"Git: Amend Commit"
+					],
+					[
+						"git com",
+						"Git: Commit"
+					],
+					[
+						"git add cu	",
+						"Git: Add Current File"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git commit ",
+						"Git: Amend Commit"
+					],
+					[
+						"git statu",
+						"Git: Status"
+					],
+					[
+						"git d",
+						"Git: Diff All"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"enab	",
+						"Package Control: Enable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"show do",
+						"Rope: Show Documentation"
+					],
+					[
+						"show d",
+						"Rope: Show Documentation"
+					],
+					[
+						"project",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"new proj",
+						"Rope: New Project"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"rege",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"rope new",
+						"Rope: New Project"
+					],
+					[
+						"regepr",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"regena",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/congnt3/workspace/io-2012-slides/theme/scss/default.scss",
+				"/home/congnt3/workspace/io-2012-slides/scripts/md/base.html",
+				"/home/congnt3/workspace/io-2012-slides/serve.sh",
+				"/home/congnt3/workspace/io-2012-slides/theme/css/default.css",
+				"/home/congnt3/workspace/io-2012-slides/js/slide-deck.js",
+				"/home/congnt3/workspace/io-2012-slides/js/slides.js",
+				"/home/congnt3/workspace/io-2012-slides/slide_config.js",
+				"/home/congnt3/workspace/io-2012-slides/theme/css/phone.css",
+				"/home/congnt3/workspace/aopt/aopt/web/views/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/web/static/style.css",
+				"/home/congnt3/workspace/aopt/aopt/web/views/service.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/run.html",
+				"/home/congnt3/.bashrc",
+				"/home/congnt3/workspace/aopt/.ropeproject/config.py",
+				"/home/congnt3/Desktop/gerrit.bk",
+				"/home/congnt3/workspace/aopt/aopt/web/models/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/task.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao.py",
+				"/home/congnt3/workspace/aopt/aopt/web/libs/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/general.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/scanner.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scan_device.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/devices.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/utils.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/list.html",
+				"/home/congnt3/workspace/aopt/aopt/web/forms.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/layout.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/template/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/models/task.py",
+				"/home/congnt3/workspace/aopt/config.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/device/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/template/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/logger.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/updateuser.html",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/user.py",
+				"/home/congnt3/workspace/aopt/run.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/user.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/review.html",
+				"/home/congnt3/workspace/aopt/aopt/dao/user_dao.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/home/congnt3/workspace/aopt/aopt/web/permission.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/general/denied.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/device/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/general/login.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/task/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/permission.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/management.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/editprofile.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/general/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/result.html",
+				"/home/congnt3/Desktop/111/demo.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/task/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/_macro.html",
+				"/home/congnt3/workspace/aopt/aopt/web/static/jquery.min.js",
+				"/home/congnt3/workspace/aopt/aopt/web/static/readme.md",
+				"/home/congnt3/workspace/aopt/aopt/web/static/demo.html",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/errors.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/workflow.py",
+				"/home/congnt3/workspace/aopt/aopt/web/libs/validator.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/service.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/__init__.py",
+				"/home/congnt3/workspace/aopt/README",
+				"/home/congnt3/workspace/aopt/aopt/devices/README",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/__init__.py",
+				"/media/congnt3/Data/workspace/fptplay/fptplay/static/css/style.css",
+				"/media/congnt3/Data/workspace/fptplay/fptplay/templates/site/signup.html",
+				"/media/congnt3/Data/workspace/fptplay/fptplay/templates/site/login.html",
+				"/home/congnt3/workspace/aopt/aopt/.project",
+				"/home/congnt3/workspace/aopt/aopt/web/models/flow.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao_exception.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/config.py",
+				"/home/congnt3/workspace/aopt/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/README.markdown",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/congnt3/workspace/aopt/aopt.sublime-workspace",
+				"/home/congnt3/workspace/flask/microblog/run.py",
+				"/home/congnt3/workspace/flask/microblog/app/templates/index.html",
+				"/home/congnt3/workspace/flask/microblog/app/views.py",
+				"/home/congnt3/workspace/flask/microblog/app/templates/base.html",
+				"/home/congnt3/workspace/flask/microblog/microblog.sublime-project",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/flask/microblog/app/run.py",
+				"/home/congnt3/workspace/flask/microblog/app/__init__.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/usr/lib/python2.7/cmd.py",
+				"/home/congnt3/workspace/checkio.py",
+				"/home/congnt3/workspace/bacnam/bacnam_api_prev.py",
+				"/home/congnt3/workspace/bacnam/bacnam.sh",
+				"/home/congnt3/workspace/bacnam/bacnam-api.py",
+				"/home/congnt3/workspace/bacnam/run.py",
+				"/home/congnt3/workspace/bacnam/bacnam.py",
+				"/home/congnt3/workspace/bacnam/vnnic_raw.txt",
+				"/media/congnt3/Data/workspace/fptplay/manage.py",
+				"/home/congnt3/workspace/notserver/.gitreview",
+				"/home/congnt3/workspace/bacnam/.gitreview",
+				"/home/congnt3/workspace/notserver/test_xhr.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt",
+				"/home/congnt3/workspace/notserver/notserver.sublime-project",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/notserver/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"A7",
+					"A4",
+					"A5",
+					"A6",
+					"protocols",
+					"    ",
+					"protocols",
+					"    ",
+					" ",
+					"protocols",
+					">",
+					"<",
+					"image",
+					"Google",
+					"set",
+					";",
+					"print",
+					"print ",
+					"h3",
+					"infobox",
+					"print ",
+					"infobox",
+					"up",
+					"///",
+					"extension",
+					"extensions",
+					"exten",
+					"str",
+					"pymysql",
+					"ERROR",
+					"logger",
+					"Logger",
+					"logger",
+					"    \n",
+					"print ",
+					"self.dao",
+					"prin",
+					"#print",
+					"fetchone",
+					"fetchall",
+					"fetchone",
+					"fetcho",
+					"csrf_token",
+					"tasks[loop.index0]",
+					"templates",
+					"print ",
+					".id",
+					"update_user",
+					"template",
+					"Template",
+					"template",
+					"service",
+					"services",
+					"template_",
+					"device",
+					"Device ",
+					"Template ",
+					"_config_template_content",
+					"build",
+					"line12",
+					"line1",
+					"line1 ",
+					"line1",
+					"<",
+					"cur_sumbol",
+					":'(",
+					"'(0,",
+					"':'",
+					" '",
+					"REDIS_VNIX_KEY",
+					"latency_key",
+					"SUBNET_KE",
+					"xhr",
+					"\n    ",
+					"LATENCY",
+					"json",
+					", di",
+					"diff",
+					"subnet",
+					"pickle",
+					"json",
+					"pickle",
+					"REDIS_SUBNET_CHANGED_KEY",
+					"#",
+					"=======",
+					"num",
+					"get_region",
+					"get_csv",
+					"set_dict",
+					"convert_set_to_list(",
+					"convert_set_to_list",
+					"get_vnix_list",
+					"REDIS_LATENCY_KEY",
+					"REDIS_SUBNET_KEY",
+					"connid",
+					"_server",
+					"entropy",
+					"XhrReceiver",
+					"SockJS",
+					"run",
+					"run\\",
+					"trans_url",
+					"protocols",
+					"protocols(",
+					"protocols",
+					"protocols\n\n\n\n\nprotocols\nprotocols",
+					"websocket",
+					"ChatRouter"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 152.0
+			},
+			"output.git":
+			{
+				"height": 124.0
+			},
+			"output.rope_python_documentation":
+			{
+				"height": 112.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 200.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"get",
+						"get_user_info(username)	(attribute, function)"
+					],
+					[
+						"confi",
+						"config_template_name"
+					],
+					[
+						"list",
+						"list_device	(local, instance)"
+					],
+					[
+						"F",
+						"FileHandler	(imported, instance)"
+					],
+					[
+						"Sca",
+						"ScannerError	(global, class)"
+					],
+					[
+						"templ",
+						"template_list	(local, instance)"
+					],
+					[
+						"has",
+						"has_invalid	(local, instance)"
+					],
+					[
+						"var",
+						"variable_list	(local, instance)"
+					],
+					[
+						"va",
+						"variable_list	(local, instance)"
+					],
+					[
+						"task",
+						"task_list	(local, instance)"
+					],
+					[
+						"ser",
+						"service_id"
+					],
+					[
+						"list_",
+						"list_service_task"
+					],
+					[
+						"Ser",
+						"ServiceTask	(imported, instance)"
+					],
+					[
+						"No",
+						"NoRecordException	(imported, class)"
+					],
+					[
+						"add",
+						"add_new_service_task"
+					],
+					[
+						"Serv",
+						"ServiceTaskForm	(global, class)"
+					],
+					[
+						"Submi",
+						"SubmitField	(imported, instance)"
+					],
+					[
+						"Templa",
+						"TemplateSyntaxError"
+					],
+					[
+						"Template",
+						"TemplateLoader"
+					],
+					[
+						"property",
+						"property	(builtin, function)"
+					],
+					[
+						"cur",
+						"cur_res	(local, instance)"
+					],
+					[
+						"inpt",
+						"input_data	(local, instance)"
+					],
+					[
+						"ascii",
+						"ascii_lowercase  (variable)"
+					],
+					[
+						"IPv4",
+						"IPv4Network	(imported, class)"
+					],
+					[
+						"IPv",
+						"IPv4Network  (class)"
+					],
+					[
+						"req",
+						"req_subnet=	(parameter_keyword, instance)"
+					],
+					[
+						"lines",
+						"line_pos	(local, instance)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+					"settings":
+					{
+						"buffer_size": 25983,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjects.py",
+					"settings":
+					{
+						"buffer_size": 8874,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjectsdef.py",
+					"settings":
+					{
+						"buffer_size": 18935,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "aopt/web/__init__.py",
+					"settings":
+					{
+						"buffer_size": 1504,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/Python/Python.sublime-build",
+			"command_palette":
+			{
+				"height": 56.0,
+				"selected_items":
+				[
+					[
+						"checkou",
+						"Git: Checkout Current File"
+					],
+					[
+						"resetcuren",
+						"Git: Reset (unstage) Current File"
+					],
+					[
+						"resetcure",
+						"Git: Reset (unstage) Current File"
+					],
+					[
+						"enabl",
+						"Package Control: Enable Package"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"disabe",
+						"Package Control: Disable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"disabl",
+						"Package Control: Disable Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"showc",
+						"Rope: Show Documentation"
+					],
+					[
+						"showdu",
+						"Rope: Show Documentation"
+					],
+					[
+						"showdo",
+						"Rope: Show Documentation"
+					],
+					[
+						"rope",
+						"Rope Refactoring: Extract Method"
+					],
+					[
+						"package",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"ctag",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"ropenew",
+						"Rope: New Project"
+					],
+					[
+						"diff",
+						"Git: Diff All"
+					],
+					[
+						"addcu",
+						"Git: Add Current File"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"add cure",
+						"Git: Add Current File"
+					],
+					[
+						"add cur",
+						"Git: Add Current File"
+					],
+					[
+						"diffcu",
+						"Git: Diff Current File"
+					],
+					[
+						"status",
+						"Git: Status"
+					],
+					[
+						"checkout",
+						"Git: Checkout Current File"
+					],
+					[
+						"d",
+						"Git: Diff All"
+					],
+					[
+						"addcur",
+						"Git: Add Current File"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"rename",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"incdif",
+						"Local History: Incremental Diff"
+					],
+					[
+						"local",
+						"Local History: Incremental Diff"
+					],
+					[
+						"localhist",
+						"Local History: Incremental Diff"
+					],
+					[
+						"quic o",
+						"Git: Quick Commit"
+					],
+					[
+						"add curen",
+						"Git: Add Current File"
+					],
+					[
+						"add c",
+						"Git: Add Current File"
+					],
+					[
+						"diff al",
+						"Git: Diff All"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"add cu",
+						"Git: Add Current File"
+					],
+					[
+						"addcure",
+						"Git: Add Current File"
+					],
+					[
+						"amend",
+						"Git: Amend Commit"
+					],
+					[
+						"amen",
+						"Git: Amend Commit"
+					],
+					[
+						"add curent",
+						"Git: Add Current File"
+					],
+					[
+						"commt",
+						"Git: Commit"
+					],
+					[
+						"st",
+						"Git: Status"
+					],
+					[
+						"add",
+						"Git: Add Current File"
+					],
+					[
+						"intel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"reglo",
+						"Rope: Regenerate Global Module Cache"
+					],
+					[
+						"rope regol",
+						"Rope: Regenerate Global Module Cache"
+					],
+					[
+						"codeintel",
+						"SublimeCodeIntel: Reset"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"roper",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"disablep",
+						"SublimeCodeIntel: Disable Plugin"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"add cur	",
+						"Git: Add Current File"
+					],
+					[
+						"git add",
+						"Git: Add Current File"
+					],
+					[
+						"addcurn",
+						"Git: Add Current File"
+					],
+					[
+						"amed",
+						"Git: Amend Commit"
+					],
+					[
+						"co",
+						"Git: Commit"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git add ",
+						"Git: Add Current File"
+					],
+					[
+						"am",
+						"Git: Amend Commit"
+					],
+					[
+						"ame",
+						"Git: Amend Commit"
+					],
+					[
+						"git com",
+						"Git: Commit"
+					],
+					[
+						"git add cu	",
+						"Git: Add Current File"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git commit ",
+						"Git: Amend Commit"
+					],
+					[
+						"git statu",
+						"Git: Status"
+					],
+					[
+						"git d",
+						"Git: Diff All"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"enab	",
+						"Package Control: Enable Package"
+					],
+					[
+						"show do",
+						"Rope: Show Documentation"
+					],
+					[
+						"show d",
+						"Rope: Show Documentation"
+					],
+					[
+						"project",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"new proj",
+						"Rope: New Project"
+					],
+					[
+						"rege",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"rope new",
+						"Rope: New Project"
+					],
+					[
+						"regepr",
+						"Rope: Regenerate Project Cache"
+					],
+					[
+						"regena",
+						"Rope: Regenerate Project Cache"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 343.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/web/models/user.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+				"/home/congnt3/workspace/aopt/aopt/__init__.py",
+				"/home/congnt3/workspace/aopt/config.py",
+				"/home/congnt3/workspace/aopt/aopt/web/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/conf.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/general.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/task.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/service.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/congnt3/workspace/aopt/aopt.sublime-project",
+				"/home/congnt3/workspace/aopt/aopt.sublime-workspace",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao.py",
+				"/home/congnt3/workspace/aopt/.tags",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/devices.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/review.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/result.html",
+				"/home/congnt3/workspace/aopt/.tags_sorted_by_file",
+				"/home/congnt3/workspace/aopt/aopt/web/views/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/web/static/style.css",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/run.html",
+				"/home/congnt3/.bashrc",
+				"/home/congnt3/workspace/aopt/.ropeproject/config.py",
+				"/home/congnt3/Desktop/gerrit.bk",
+				"/home/congnt3/workspace/aopt/aopt/web/models/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/libs/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/device.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/scanner.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scan_device.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/utils.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/list.html",
+				"/home/congnt3/workspace/aopt/aopt/web/forms.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/layout.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/template/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/models/task.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/device/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/template/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/index.html",
+				"/home/congnt3/workspace/aopt/aopt/logger.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/updateuser.html",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/user.py",
+				"/home/congnt3/workspace/aopt/run.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/user_dao.py",
+				"/home/congnt3/workspace/aopt/aopt/web/permission.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/general/denied.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/device/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/general/login.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/task/edit.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/permission.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/management.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/user/editprofile.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/general/index.html",
+				"/home/congnt3/Desktop/111/demo.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/task/index.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/_macro.html",
+				"/home/congnt3/workspace/aopt/aopt/web/static/jquery.min.js",
+				"/home/congnt3/workspace/aopt/aopt/web/static/readme.md",
+				"/home/congnt3/workspace/aopt/aopt/web/static/demo.html",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/errors.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/workflow.py",
+				"/home/congnt3/workspace/aopt/aopt/web/libs/validator.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/service.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/__init__.py",
+				"/home/congnt3/workspace/aopt/README",
+				"/home/congnt3/workspace/aopt/aopt/devices/README",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/__init__.py",
+				"/media/congnt3/Data/workspace/fptplay/fptplay/static/css/style.css",
+				"/media/congnt3/Data/workspace/fptplay/fptplay/templates/site/signup.html",
+				"/media/congnt3/Data/workspace/fptplay/fptplay/templates/site/login.html",
+				"/home/congnt3/workspace/aopt/aopt/.project",
+				"/home/congnt3/workspace/aopt/aopt/web/models/flow.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao_exception.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/config.py",
+				"/home/congnt3/workspace/aopt/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/README.markdown",
+				"/home/congnt3/workspace/flask/microblog/run.py",
+				"/home/congnt3/workspace/flask/microblog/app/templates/index.html",
+				"/home/congnt3/workspace/flask/microblog/app/views.py",
+				"/home/congnt3/workspace/flask/microblog/app/templates/base.html",
+				"/home/congnt3/workspace/flask/microblog/microblog.sublime-project",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/flask/microblog/app/run.py",
+				"/home/congnt3/workspace/flask/microblog/app/__init__.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/usr/lib/python2.7/cmd.py",
+				"/home/congnt3/workspace/checkio.py",
+				"/home/congnt3/workspace/bacnam/bacnam_api_prev.py",
+				"/home/congnt3/workspace/bacnam/bacnam.sh",
+				"/home/congnt3/workspace/bacnam/bacnam-api.py",
+				"/home/congnt3/workspace/bacnam/run.py",
+				"/home/congnt3/workspace/bacnam/bacnam.py",
+				"/home/congnt3/workspace/bacnam/vnnic_raw.txt",
+				"/media/congnt3/Data/workspace/fptplay/manage.py",
+				"/home/congnt3/workspace/notserver/.gitreview",
+				"/home/congnt3/workspace/bacnam/.gitreview",
+				"/home/congnt3/workspace/notserver/test_xhr.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt",
+				"/home/congnt3/workspace/notserver/notserver.sublime-project",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/notserver/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"    ",
+					"set",
+					";",
+					"print",
+					"print ",
+					"h3",
+					"infobox",
+					"print ",
+					"infobox",
+					"up",
+					"///",
+					"extension",
+					"extensions",
+					"exten",
+					"str",
+					"pymysql",
+					"ERROR",
+					"logger",
+					"Logger",
+					"logger",
+					"    \n",
+					"print ",
+					"self.dao",
+					"prin",
+					"#print",
+					"fetchone",
+					"fetchall",
+					"fetchone",
+					"fetcho",
+					"csrf_token",
+					"tasks[loop.index0]",
+					"templates",
+					"print ",
+					".id",
+					"update_user",
+					"template",
+					"Template",
+					"template",
+					"service",
+					"services",
+					"template_",
+					"device",
+					"Device ",
+					"Template ",
+					"_config_template_content",
+					"build",
+					"line12",
+					"line1",
+					"line1 ",
+					"line1",
+					"<",
+					"cur_sumbol",
+					":'(",
+					"'(0,",
+					"':'",
+					" '",
+					"REDIS_VNIX_KEY",
+					"latency_key",
+					"SUBNET_KE",
+					"xhr",
+					"\n    ",
+					"LATENCY",
+					"json",
+					", di",
+					"diff",
+					"subnet",
+					"pickle",
+					"json",
+					"pickle",
+					"REDIS_SUBNET_CHANGED_KEY",
+					"#",
+					"=======",
+					"num",
+					"get_region",
+					"get_csv",
+					"set_dict",
+					"convert_set_to_list(",
+					"convert_set_to_list",
+					"get_vnix_list",
+					"REDIS_LATENCY_KEY",
+					"REDIS_SUBNET_KEY",
+					"connid",
+					"_server",
+					"entropy",
+					"XhrReceiver",
+					"SockJS",
+					"run",
+					"run\\",
+					"trans_url",
+					"protocols",
+					"protocols(",
+					"protocols",
+					"protocols\n\n\n\n\nprotocols\nprotocols",
+					"websocket",
+					"ChatRouter"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+							"settings":
+							{
+								"buffer_size": 25983,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										22427,
+										22427
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 11767.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjects.py",
+							"settings":
+							{
+								"buffer_size": 8874,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjectsdef.py",
+							"settings":
+							{
+								"buffer_size": 18935,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4123,
+										4123
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1987.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "aopt/web/__init__.py",
+							"settings":
+							{
+								"buffer_size": 1504,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										624,
+										601
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 315.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 152.0
+			},
+			"output.git":
+			{
+				"height": 124.0
+			},
+			"output.rope_python_documentation":
+			{
+				"height": 112.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 136.0
+			},
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"replace":
+			{
+				"height": 68.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 200.0,
+			"status_bar_visible": true,
+			"window_id": 15,
+			"workspace_name": "/home/congnt3/workspace/aopt/aopt.sublime-project"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/congnt3/workspace/aopt/aopt.sublime-project",
+			"/home/congnt3/workspace/flask/microblog/microblog.sublime-project",
+			"/home/congnt3/workspace/notserver/notserver.sublime-project"
+		]
+	}
+}

@@ -1,6 +1,31 @@
 GoSublime Changes
 -----------------
 
+## r13.01.06-1
+	* add two new 9o command `env` and `settings` see 9o `help` for more details
+	* 9o now supports a new scheme `gs.packages` e.g. `ctrl+shft`, left-click on gs.packages://GoSublime/9o.md will open the 9o docs
+
+## r13.01.05-2
+	* added two task aliases to tskill
+		`tskill replay` will kill/cancel the last replay command
+
+		`tskill go` will kill the last go command (go test, etc.). as a consequence,
+			the 9o `go` command now acts like the `replay` command in that kills any previous instance
+
+	* added new setting autosave:
+		controls whether or not pkg files should be automatically saved when necessary
+		(e.g. when running 9o `replay` or `go test` commands)
+
+## r13.01.05-1
+	* impl click-tests. i.e `ctrl+shift`,`left-click` on words that start with Test,Benchmark or Example
+	will run go corresponding test or bench. `ctrl+shift`,`right-click` will do the same but using only the prefix
+	e.g.
+		`ctrl+shift`,`left-click` on `BenchmarkNewFunc` will run only `BenchmarkNew`:
+			`go test -test.run=none -test.bench="^BenchmarkNew$"`
+
+		`ctrl+shift`,`right-click` on `BenchmarkNewFunc` will run all benchmarks:
+			`go test -test.run=none -test.bench="^Benchmark.*"`
+
 ## r12.12.29-1
 	* impl 9o tskill command. see 9o(ctrl+9) "help" for more info
 

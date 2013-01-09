@@ -139,3 +139,84 @@ env output: /bin/sh: 1: gosublime.margo9.exe: not found
 ** 2013-01-05 15:19:23.787737 **:
 MarGo9: Missing environment variable(s): GOROOT, GOPATH
 --------------------------------
+
+** 2013-01-07 09:15:55.931302 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-07 09:15:55.932692 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 13:23:38.193592 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 13:23:38.195104 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 14:53:06.521847 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 14:53:06.539532 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 14:53:56.198187 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 14:53:56.199656 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 14:55:01.442292 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 14:55:01.443600 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 14:56:03.261133 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 14:56:03.263989 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 15:01:31.885884 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 15:01:31.888410 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 15:04:21.750336 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 15:04:21.752022 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------
+
+** 2013-01-09 15:07:45.738459 **:
+MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.margo9.exe: not found
+--------------------------------
+
+** 2013-01-09 15:07:45.740650 **:
+MarGo9: Missing environment variable(s): GOROOT, GOPATH
+--------------------------------

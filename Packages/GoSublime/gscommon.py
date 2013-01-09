@@ -58,6 +58,7 @@ except:
 		"default_snippets": [],
 		"snippets": [],
 		"fn_exclude_prefixes": [".", "_"],
+		"autosave": True,
 	}
 	_settings = copy.copy(_default_settings)
 
@@ -130,7 +131,7 @@ def temp_file(suffix='', prefix='', delete=True):
 	return (f, '')
 
 def basedir_or_cwd(fn):
-	if fn and not fn.startswith('view://'):
+	if fn and not fn.startswith('gs.view://'):
 		return os.path.dirname(fn)
 	return os.getcwd()
 
@@ -180,18 +181,23 @@ def aso():
 def save_aso():
 	return sublime.save_settings("GoSublime-aux.sublime-settings")
 
+def settings_dict():
+	m = copy.copy(_settings)
+
+	for k in m:
+		v = attr(k, None)
+		if v is not None:
+			m[k] = v
+
+	nv = dval(copy.copy(_settings.get('env')), {})
+	lpe = dval(attr('last_active_project_settings', {}).get('env'), {})
+	nv.update(lpe)
+	m['env'] = nv
+
+	return m
+
 def setting(k, d=None):
-	if k == 'env':
-		nv = dval(copy.copy(_settings.get('env')), {})
-		lpe = dval(attr('last_active_project_settings', {}).get('env'), {})
-		nv.update(lpe)
-		return nv
-
-	v = attr(k, None)
-	if v is not None:
-		return v
-
-	return copy.copy(_settings.get(k, d))
+	return settings_dict().get(k, d)
 
 def println(*a):
 	l = []
@@ -435,7 +441,7 @@ def view_fn(view):
 	if view is not None:
 		if view.file_name():
 			return view.file_name()
-		return 'view://%s' % view.id()
+		return 'gs.view://%s' % view.id()
 	return ''
 
 def view_src(view):
@@ -451,7 +457,7 @@ def win_view(vfn=None, win=None):
 	if win:
 		if not vfn or vfn == "<stdin>":
 			view = win.active_view()
-		elif vfn.startswith("view://"):
+		elif vfn.startswith("gs.view://") or vfn.startswith("view://"):
 			try:
 				vid = int(vfn[7:])
 				for v in win.views():
@@ -467,7 +473,7 @@ def win_view(vfn=None, win=None):
 def do_focus(fn, row, col, win=None, focus_pkg=True):
 	win, view = win_view(fn, win)
 	if win is None or view is None:
-		notice(NAME, 'Cannot find file position %s:%s:%s' % (fn, row, col))
+		notify(NAME, 'Cannot find file position %s:%s:%s' % (fn, row, col))
 	elif view.is_loading():
 		focus(fn, row, col, win, focus_pkg)
 	else:

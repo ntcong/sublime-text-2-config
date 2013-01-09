@@ -2,9 +2,11 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"CTags",
 		"Git",
 		"GoSublime",
 		"Local History",
+		"Modific",
 		"Package Control",
 		"SublimeCodeIntel",
 		"SublimeLinter",
