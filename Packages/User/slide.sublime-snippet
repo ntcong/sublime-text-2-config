@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<slide class="big">
+    <hgroup>
+        <h2>${1:Title}</h2>
+        <h3>${2:Subtitle}</h3>
+    </hgroup>
+    <article>
+        <ul>
+            <li>${3:Content 1}</li>
+            <li>${4:Content 2}</li>
+        </ul>
+    </article>
+</slide>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>slide</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -3,14 +3,18 @@
 	"installed_packages":
 	[
 		"CTags",
+		"Emmet",
 		"Git",
 		"GoSublime",
 		"Local History",
 		"Modific",
 		"Package Control",
+		"PlainTasks",
+		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
-		"SublimeRope"
+		"SublimeRope",
+		"Theme - Soda"
 	]
 }

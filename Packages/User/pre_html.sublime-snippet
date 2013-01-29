@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<pre class="prettyprint" data-lang="${1:language}">
+${2:content}
+</pre>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>precode</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

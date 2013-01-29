@@ -1,222 +1,237 @@
-/bin/sh: 1: /home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.margo9.exe: not found
 
-** 2012-11-29 13:59:17.942769 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output:
+** 2013-01-22 11:19:06.120536 **:
+MarGo: Cannot load env vars: Decode Error: No JSON object could be decoded
+env output: /bin/sh: 1: gosublime.r13.01.21-1.margo.exe: not found
 --------------------------------
 
-** 2012-12-03 10:23:26.898686 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:06.121749 **:
+MarGo: Missing environment variable(s): GOROOT, GOPATH
 --------------------------------
 
-** 2012-12-03 10:23:26.924380 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:24.687382 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-04 13:42:58.875588 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:24.703592 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-04 13:42:58.876759 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:25.585800 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-24 11:44:26.386210 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:25.599660 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-24 11:44:26.405908 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:25.605646 **:
+GsComplete: Abort. Cannot start MarGo
 --------------------------------
 
-** 2012-12-24 11:46:37.573685 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:25.689328 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-24 11:46:37.574944 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:25.703181 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-24 11:56:37.094011 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:25.709325 **:
+GsComplete: Abort. Cannot start MarGo
 --------------------------------
 
-** 2012-12-24 11:56:37.096782 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:25.822834 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-24 14:25:18.819780 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:25.836788 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-24 14:25:18.835447 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:25.842827 **:
+GsComplete: Abort. Cannot start MarGo
 --------------------------------
 
-** 2012-12-24 14:30:19.726340 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:25.925920 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-24 14:30:19.727768 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:25.939847 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-25 10:13:54.691755 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:25.945905 **:
+GsComplete: Abort. Cannot start MarGo
 --------------------------------
 
-** 2012-12-25 10:13:54.700578 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:26.714462 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-27 15:50:46.384596 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:26.728565 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-27 15:50:46.401217 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:30.220787 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2012-12-28 09:36:18.220986 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:30.234774 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2012-12-28 09:36:18.243164 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:30.789044 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2013-01-02 11:32:34.996108 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:30.802934 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+    bufsize=bufsize
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2013-01-02 11:32:35.012260 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:19:31.725197 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2013-01-02 11:40:02.016605 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:19:31.740010 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2013-01-02 11:40:02.034148 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:20:04.000064 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2013-01-03 15:02:33.479494 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:20:04.015070 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2013-01-03 15:02:33.489226 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:20:04.015378 **:
+GsPalette: Abort. Cannot start MarGo
 --------------------------------
 
-** 2013-01-04 10:21:23.125798 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:21:43.772508 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2013-01-04 10:21:23.293119 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:21:43.796335 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2013-01-05 15:19:23.777217 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:21:43.796617 **:
+GsPalette: Abort. Cannot start MarGo
 --------------------------------
 
-** 2013-01-05 15:19:23.787737 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:21:49.077627 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2013-01-07 09:15:55.931302 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:21:49.096135 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2013-01-07 09:15:55.932692 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:21:49.096421 **:
+GsPalette: Abort. Cannot start MarGo
 --------------------------------
 
-** 2013-01-09 13:23:38.193592 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:28:26.167352 **:
+MarGo: Installation aborted. Install command already called for GoSublime r13.01.21-1.
 --------------------------------
 
-** 2013-01-09 13:23:38.195104 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:28:26.218569 **:
+MarGo: Cannot start MarGo: Error running command ['/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime/9/bin/gosublime.r13.01.21-1.margo.exe', '-poll=30']: GoSublime: Traceback (most recent call last):
+  File "./gsshell.py", line 255, in proc
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 1139, in _execute_child
+OSError: [Errno 2] No such file or directory
 --------------------------------
 
-** 2013-01-09 14:53:06.521847 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:28:30.225868 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:53:06.539532 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:30:14.456234 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:53:56.198187 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:35:52.581141 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:53:56.199656 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-22 11:36:18.275869 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:55:01.442292 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-22 11:36:52.459611 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:55:01.443600 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-24 15:34:30.134426 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:56:03.261133 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
+** 2013-01-24 15:35:04.493991 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 14:56:03.263989 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-24 15:46:49.011783 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------
 
-** 2013-01-09 15:01:31.885884 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
---------------------------------
-
-** 2013-01-09 15:01:31.888410 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
---------------------------------
-
-** 2013-01-09 15:04:21.750336 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
---------------------------------
-
-** 2013-01-09 15:04:21.752022 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
---------------------------------
-
-** 2013-01-09 15:07:45.738459 **:
-MarGo9: Cannot load env vars: Decode Error: No JSON object could be decoded
-env output: /bin/sh: 1: gosublime.margo9.exe: not found
---------------------------------
-
-** 2013-01-09 15:07:45.740650 **:
-MarGo9: Missing environment variable(s): GOROOT, GOPATH
+** 2013-01-24 15:54:00.488994 **:
+MarGo: Missing environment variable(s): GOPATH
 --------------------------------

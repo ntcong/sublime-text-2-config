@@ -1,3 +1,13 @@
 {
-	"changelog.rev": "r13.01.06-1"
+	"9o.hist./home/congnt3/workspace/go":
+	[
+		"replay"
+	],
+	"9o.hist./home/congnt3/workspace/golearn":
+	[
+		"help",
+		"replay"
+	],
+	"changelog.rev": "r13.01.21-1",
+	"mg9_install_tokens": "r13.01.21-1"
 }

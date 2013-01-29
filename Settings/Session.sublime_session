@@ -9,7 +9,7 @@
 		"/home/congnt3/workspace/bacnam",
 		"/media/congnt3/Data/bacnam"
 	],
-	"last_window_id": 15,
+	"last_window_id": 21,
 	"settings":
 	{
 		"new_window_height": 0.0,
@@ -19,6 +19,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"get",
+						"get_user_info(username)	(attribute, function)"
+					],
 					[
 						"confi",
 						"config_template_name"
@@ -125,31 +129,199 @@
 					]
 				]
 			},
-			"build_system": "Packages/Python/Python.sublime-build",
+			"build_system": "",
 			"command_palette":
 			{
-				"height": 138.0,
+				"height": 375.0,
 				"selected_items":
 				[
 					[
-						"diff",
-						"Git: Diff All"
+						"run",
+						"GoSublime: Play/Run (current file only)"
 					],
 					[
-						"ropenew",
-						"Rope: New Project"
+						"gosublimeru",
+						"GoSublime: Play/Run (current file only)"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"removepa",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"remove ",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"gosublime",
+						"GoSublime: Add/Remove package"
+					],
+					[
+						"gosu",
+						"GoSublime: Activate 9o"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Enable Package"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"amend",
+						"Git: Amend Commit"
+					],
+					[
+						"comm",
+						"Git: Commit"
 					],
 					[
 						"addcu",
 						"Git: Add Current File"
 					],
 					[
+						"add cure",
+						"Git: Add Current File"
+					],
+					[
+						"add curen",
+						"Git: Add Current File"
+					],
+					[
+						"amendco",
+						"Git: Amend Commit"
+					],
+					[
+						"addc",
+						"Git: Add Current File"
+					],
+					[
+						"ament",
+						"Git: Amend Commit"
+					],
+					[
 						"commit",
 						"Git: Commit"
 					],
 					[
-						"add cure",
-						"Git: Add Current File"
+						"branch",
+						"Git: Change Branch"
+					],
+					[
+						"st",
+						"Git: Status"
+					],
+					[
+						"ropeim",
+						"Rope: Import Assist"
+					],
+					[
+						"diffa",
+						"Git: Diff All"
+					],
+					[
+						"ctags",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"diffal",
+						"Git: Diff All"
+					],
+					[
+						"removep",
+						"Package Control: Remove Package"
+					],
+					[
+						"checkout",
+						"Git: Checkout Current File"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"checkou",
+						"Git: Checkout Current File"
+					],
+					[
+						"resetcuren",
+						"Git: Reset (unstage) Current File"
+					],
+					[
+						"resetcure",
+						"Git: Reset (unstage) Current File"
+					],
+					[
+						"enabl",
+						"Package Control: Enable Package"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"disabe",
+						"Package Control: Disable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"disabl",
+						"Package Control: Disable Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"showc",
+						"Rope: Show Documentation"
+					],
+					[
+						"showdu",
+						"Rope: Show Documentation"
+					],
+					[
+						"showdo",
+						"Rope: Show Documentation"
+					],
+					[
+						"rope",
+						"Rope Refactoring: Extract Method"
+					],
+					[
+						"package",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"ctag",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"ropenew",
+						"Rope: New Project"
+					],
+					[
+						"diff",
+						"Git: Diff All"
 					],
 					[
 						"add cur",
@@ -162,10 +334,6 @@
 					[
 						"status",
 						"Git: Status"
-					],
-					[
-						"checkout",
-						"Git: Checkout Current File"
 					],
 					[
 						"d",
@@ -196,16 +364,8 @@
 						"Local History: Incremental Diff"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"quic o",
 						"Git: Quick Commit"
-					],
-					[
-						"add curen",
-						"Git: Add Current File"
 					],
 					[
 						"add c",
@@ -216,20 +376,12 @@
 						"Git: Diff All"
 					],
 					[
-						"comm",
-						"Git: Commit"
-					],
-					[
 						"add cu",
 						"Git: Add Current File"
 					],
 					[
 						"addcure",
 						"Git: Add Current File"
-					],
-					[
-						"amend",
-						"Git: Amend Commit"
 					],
 					[
 						"amen",
@@ -244,20 +396,8 @@
 						"Git: Commit"
 					],
 					[
-						"st",
-						"Git: Status"
-					],
-					[
 						"add",
 						"Git: Add Current File"
-					],
-					[
-						"disable",
-						"Package Control: Disable Package"
-					],
-					[
-						"rope",
-						"Package Control: Enable Package"
 					],
 					[
 						"intel",
@@ -276,24 +416,12 @@
 						"SublimeCodeIntel: Reset"
 					],
 					[
-						"enable",
-						"Package Control: Enable Package"
-					],
-					[
 						"roper",
 						"Rope: Regenerate Project Cache"
 					],
 					[
-						"enabl",
-						"Package Control: Enable Package"
-					],
-					[
 						"disablep",
 						"SublimeCodeIntel: Disable Plugin"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"git diff",
@@ -368,10 +496,6 @@
 						"Package Control: Enable Package"
 					],
 					[
-						"disab",
-						"Package Control: Disable Package"
-					],
-					[
 						"show do",
 						"Rope: Show Documentation"
 					],
@@ -388,10 +512,6 @@
 						"Rope: New Project"
 					],
 					[
-						"disa",
-						"Package Control: Disable Package"
-					],
-					[
 						"rege",
 						"Rope: Regenerate Project Cache"
 					],
@@ -406,17 +526,13 @@
 					[
 						"regena",
 						"Rope: Regenerate Project Cache"
-					],
-					[
-						"enab",
-						"Package Control: Enable Package"
 					]
 				],
-				"width": 449.0
+				"width": 453.0
 			},
 			"console":
 			{
-				"height": 139.0
+				"height": 343.0
 			},
 			"distraction_free":
 			{
@@ -429,52 +545,88 @@
 			},
 			"file_history":
 			[
-				"/home/congnt3/workspace/io-2012-slides/theme/scss/default.scss",
-				"/home/congnt3/workspace/io-2012-slides/scripts/md/base.html",
-				"/home/congnt3/workspace/io-2012-slides/serve.sh",
-				"/home/congnt3/workspace/io-2012-slides/theme/css/default.css",
-				"/home/congnt3/workspace/io-2012-slides/js/slide-deck.js",
-				"/home/congnt3/workspace/io-2012-slides/js/slides.js",
-				"/home/congnt3/workspace/io-2012-slides/slide_config.js",
-				"/home/congnt3/workspace/io-2012-slides/theme/css/phone.css",
-				"/home/congnt3/workspace/aopt/aopt/web/views/__init__.py",
-				"/home/congnt3/workspace/aopt/aopt/web/static/style.css",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/go/main.go",
+				"/home/congnt3/workspace/golearn/main.go",
+				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/GoSublime.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/9o.md",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/README.md",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/GoSublime.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/user.py",
+				"/home/congnt3/workspace/aopt/aopt/web/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/db_scripts/creation_script.sql",
+				"/home/congnt3/workspace/aopt/aopt/dao/config.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao_exception.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/job.py",
+				"/home/congnt3/workspace/aopt/init_db.py",
+				"/home/congnt3/workspace/aopt/tests.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/user_dao.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/general.py",
 				"/home/congnt3/workspace/aopt/aopt/web/views/service.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/task.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/template.py",
+				"/home/congnt3/workspace/aopt/aopt/job/job.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/device.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/juniper.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/service/run.html",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/congnt3/workspace/aopt/aopt/job/run.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/job/__init__.py",
+				"/home/congnt3/workspace/aopt/config.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/service.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/CTags/Default.sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/web/models/task.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/review.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/list.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/result.html",
+				"/home/congnt3/.config/sublime-text-2/Packages/Abacus/Abacus.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/Theme - Soda/Soda Dark.sublime-theme",
+				"/home/congnt3/workspace/aopt/aopt/web/forms.py",
+				"/home/congnt3/workspace/aopt/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/Abacus/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/web/permission.py",
+				"/home/congnt3/workspace/aopt/.gitreview",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjectsdef.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjects.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/conf.py",
+				"/home/congnt3/workspace/aopt/aopt.sublime-project",
+				"/home/congnt3/workspace/aopt/aopt.sublime-workspace",
+				"/home/congnt3/workspace/aopt/.tags",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/devices.py",
+				"/home/congnt3/workspace/aopt/.tags_sorted_by_file",
+				"/home/congnt3/workspace/aopt/aopt/web/static/style.css",
 				"/home/congnt3/.bashrc",
 				"/home/congnt3/workspace/aopt/.ropeproject/config.py",
 				"/home/congnt3/Desktop/gerrit.bk",
 				"/home/congnt3/workspace/aopt/aopt/web/models/template.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/template.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/task.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/dao.py",
 				"/home/congnt3/workspace/aopt/aopt/web/libs/template.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/device.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/general.py",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/scanner.py",
 				"/home/congnt3/workspace/aopt/aopt/devices/scan_device.py",
-				"/home/congnt3/workspace/aopt/aopt/devices/scanner/devices.py",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/utils.py",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/list.html",
-				"/home/congnt3/workspace/aopt/aopt/web/forms.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/layout.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/template/edit.html",
-				"/home/congnt3/workspace/aopt/aopt/web/models/task.py",
-				"/home/congnt3/workspace/aopt/config.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/device/index.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/template/index.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/service/index.html",
-				"/home/congnt3/workspace/aopt/aopt/web/__init__.py",
 				"/home/congnt3/workspace/aopt/aopt/logger.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/user/updateuser.html",
-				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
 				"/home/congnt3/workspace/aopt/aopt/dao/models/user.py",
 				"/home/congnt3/workspace/aopt/run.py",
-				"/home/congnt3/workspace/aopt/aopt/web/models/user.py",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/review.html",
-				"/home/congnt3/workspace/aopt/aopt/dao/user_dao.py",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
-				"/home/congnt3/workspace/aopt/aopt/web/permission.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/general/denied.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/device/edit.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/general/login.html",
@@ -484,7 +636,6 @@
 				"/home/congnt3/workspace/aopt/aopt/web/templates/user/management.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/user/editprofile.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/general/index.html",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/result.html",
 				"/home/congnt3/Desktop/111/demo.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/task/index.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/_macro.html",
@@ -494,9 +645,6 @@
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/errors.py",
 				"/home/congnt3/workspace/aopt/aopt/dao/models/workflow.py",
 				"/home/congnt3/workspace/aopt/aopt/web/libs/validator.py",
-				"/home/congnt3/workspace/aopt/aopt/devices/__init__.py",
-				"/home/congnt3/workspace/aopt/aopt/web/models/device.py",
-				"/home/congnt3/workspace/aopt/aopt/web/models/service.py",
 				"/home/congnt3/workspace/aopt/aopt/web/models/__init__.py",
 				"/home/congnt3/workspace/aopt/README",
 				"/home/congnt3/workspace/aopt/aopt/devices/README",
@@ -506,15 +654,9 @@
 				"/media/congnt3/Data/workspace/fptplay/fptplay/templates/site/login.html",
 				"/home/congnt3/workspace/aopt/aopt/.project",
 				"/home/congnt3/workspace/aopt/aopt/web/models/flow.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/dao_exception.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/config.py",
-				"/home/congnt3/workspace/aopt/.gitignore",
 				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/README.markdown",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/congnt3/workspace/aopt/aopt.sublime-workspace",
 				"/home/congnt3/workspace/flask/microblog/run.py",
 				"/home/congnt3/workspace/flask/microblog/app/templates/index.html",
 				"/home/congnt3/workspace/flask/microblog/app/views.py",
@@ -523,7 +665,6 @@
 				"/home/congnt3/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 				"/home/congnt3/workspace/flask/microblog/app/run.py",
 				"/home/congnt3/workspace/flask/microblog/app/__init__.py",
-				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
 				"/usr/lib/python2.7/cmd.py",
 				"/home/congnt3/workspace/checkio.py",
@@ -531,20 +672,7 @@
 				"/home/congnt3/workspace/bacnam/bacnam.sh",
 				"/home/congnt3/workspace/bacnam/bacnam-api.py",
 				"/home/congnt3/workspace/bacnam/run.py",
-				"/home/congnt3/workspace/bacnam/bacnam.py",
-				"/home/congnt3/workspace/bacnam/vnnic_raw.txt",
-				"/media/congnt3/Data/workspace/fptplay/manage.py",
-				"/home/congnt3/workspace/notserver/.gitreview",
-				"/home/congnt3/workspace/bacnam/.gitreview",
-				"/home/congnt3/workspace/notserver/test_xhr.py",
-				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
-				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt",
-				"/home/congnt3/workspace/notserver/notserver.sublime-project",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/Default (Linux).sublime-keymap",
-				"/home/congnt3/workspace/notserver/.gitignore",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings"
+				"/home/congnt3/workspace/bacnam/bacnam.py"
 			],
 			"find":
 			{
@@ -562,20 +690,22 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"A7",
-					"A4",
-					"A5",
-					"A6",
-					"protocols",
+					"i * j",
+					"i*j",
+					"i * j",
+					"smallest",
+					"smallest_j",
+					"i",
+					"exe",
+					"job",
+					"usr_name",
+					"\\r",
+					"session",
+					"side",
+					"= \n",
+					", ",
+					",",
 					"    ",
-					"protocols",
-					"    ",
-					" ",
-					"protocols",
-					">",
-					"<",
-					"image",
-					"Google",
 					"set",
 					";",
 					"print",
@@ -715,6 +845,18 @@
 				]
 			},
 			"menu_visible": true,
+			"output.9o:///home/congnt3/workspace/go":
+			{
+				"height": 254.0
+			},
+			"output.9o:///home/congnt3/workspace/golearn":
+			{
+				"height": 138.0
+			},
+			"output.GsComplete.completion-hint-output":
+			{
+				"height": 138.0
+			},
 			"output.exec":
 			{
 				"height": 152.0
@@ -727,9 +869,13 @@
 			{
 				"height": 112.0
 			},
+			"output.unsaved_changes":
+			{
+				"height": 136.0
+			},
 			"replace":
 			{
-				"height": 64.0
+				"height": 68.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -877,34 +1023,18 @@
 			"buffers":
 			[
 				{
-					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+					"file": "aopt/web/views/job.py",
 					"settings":
 					{
-						"buffer_size": 25983,
+						"buffer_size": 321,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjects.py",
+					"file": "aopt/web/views/service.py",
 					"settings":
 					{
-						"buffer_size": 8874,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjectsdef.py",
-					"settings":
-					{
-						"buffer_size": 18935,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "aopt/web/__init__.py",
-					"settings":
-					{
-						"buffer_size": 1521,
+						"buffer_size": 6927,
 						"line_ending": "Unix"
 					}
 				}
@@ -912,9 +1042,117 @@
 			"build_system": "Packages/Python/Python.sublime-build",
 			"command_palette":
 			{
-				"height": 308.0,
+				"height": 127.0,
 				"selected_items":
 				[
+					[
+						"addc",
+						"Git: Add Current File"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"diff",
+						"Git: Diff All"
+					],
+					[
+						"quico",
+						"Git: Quick Commit"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"addcure",
+						"Git: Add Current File"
+					],
+					[
+						"checkout",
+						"Git: Checkout Current File"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"amend",
+						"Git: Amend Commit"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"addcu",
+						"Git: Add Current File"
+					],
+					[
+						"add cure",
+						"Git: Add Current File"
+					],
+					[
+						"add curen",
+						"Git: Add Current File"
+					],
+					[
+						"amendco",
+						"Git: Amend Commit"
+					],
+					[
+						"ament",
+						"Git: Amend Commit"
+					],
+					[
+						"branch",
+						"Git: Change Branch"
+					],
+					[
+						"st",
+						"Git: Status"
+					],
+					[
+						"ropeim",
+						"Rope: Import Assist"
+					],
+					[
+						"diffa",
+						"Git: Diff All"
+					],
+					[
+						"ctags",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"diffal",
+						"Git: Diff All"
+					],
+					[
+						"removep",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"checkou",
+						"Git: Checkout Current File"
+					],
+					[
+						"resetcuren",
+						"Git: Reset (unstage) Current File"
+					],
+					[
+						"resetcure",
+						"Git: Reset (unstage) Current File"
+					],
 					[
 						"enabl",
 						"Package Control: Enable Package"
@@ -960,36 +1198,12 @@
 						"Package Control: Upgrade Package"
 					],
 					[
-						"disable",
-						"Package Control: Disable Package"
-					],
-					[
 						"ctag",
 						"CTags: Rebuild Tags"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"ropenew",
 						"Rope: New Project"
-					],
-					[
-						"diff",
-						"Git: Diff All"
-					],
-					[
-						"addcu",
-						"Git: Add Current File"
-					],
-					[
-						"commit",
-						"Git: Commit"
-					],
-					[
-						"add cure",
-						"Git: Add Current File"
 					],
 					[
 						"add cur",
@@ -1002,10 +1216,6 @@
 					[
 						"status",
 						"Git: Status"
-					],
-					[
-						"checkout",
-						"Git: Checkout Current File"
 					],
 					[
 						"d",
@@ -1040,10 +1250,6 @@
 						"Git: Quick Commit"
 					],
 					[
-						"add curen",
-						"Git: Add Current File"
-					],
-					[
 						"add c",
 						"Git: Add Current File"
 					],
@@ -1052,20 +1258,8 @@
 						"Git: Diff All"
 					],
 					[
-						"comm",
-						"Git: Commit"
-					],
-					[
 						"add cu",
 						"Git: Add Current File"
-					],
-					[
-						"addcure",
-						"Git: Add Current File"
-					],
-					[
-						"amend",
-						"Git: Amend Commit"
 					],
 					[
 						"amen",
@@ -1078,10 +1272,6 @@
 					[
 						"commt",
 						"Git: Commit"
-					],
-					[
-						"st",
-						"Git: Status"
 					],
 					[
 						"add",
@@ -1168,10 +1358,6 @@
 						"Git: Add Current File"
 					],
 					[
-						"git status",
-						"Git: Status"
-					],
-					[
 						"git commit ",
 						"Git: Amend Commit"
 					],
@@ -1224,7 +1410,7 @@
 						"Rope: Regenerate Project Cache"
 					]
 				],
-				"width": 449.0
+				"width": 588.0
 			},
 			"console":
 			{
@@ -1241,46 +1427,76 @@
 			},
 			"file_history":
 			[
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-				"/home/congnt3/workspace/aopt/aopt/web/models/user.py",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
-				"/home/congnt3/workspace/aopt/aopt/__init__.py",
-				"/home/congnt3/workspace/aopt/config.py",
-				"/home/congnt3/workspace/aopt/aopt/web/__init__.py",
-				"/home/congnt3/workspace/aopt/aopt/devices/scanner/conf.py",
+				"/home/congnt3/workspace/aopt/aopt/job/job.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/job.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/juniper.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/service.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/device.py",
 				"/home/congnt3/workspace/aopt/aopt/web/views/general.py",
 				"/home/congnt3/workspace/aopt/aopt/web/views/task.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/service.py",
+				"/home/congnt3/workspace/aopt/aopt/db_scripts/creation_script.sql",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/job.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/models/workflow.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/dao_exception.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/config.py",
+				"/home/congnt3/workspace/aopt/aopt/job/run.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/user.py",
+				"/home/congnt3/workspace/aopt/aopt/web/__init__.py",
+				"/home/congnt3/workspace/aopt/init_db.py",
+				"/home/congnt3/workspace/aopt/tests.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/user_dao.py",
+				"/home/congnt3/workspace/aopt/aopt/dao/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/views/template.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/run.html",
 				"/home/congnt3/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/congnt3/workspace/aopt/aopt/web/views/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/job/__init__.py",
+				"/home/congnt3/workspace/aopt/config.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/device.py",
+				"/home/congnt3/workspace/aopt/aopt/web/models/service.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/CTags/Default.sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/web/models/task.py",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/review.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/list.html",
+				"/home/congnt3/workspace/aopt/aopt/web/templates/service/result.html",
+				"/home/congnt3/.config/sublime-text-2/Packages/Abacus/Abacus.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/Theme - Soda/Soda Dark.sublime-theme",
+				"/home/congnt3/workspace/aopt/aopt/web/forms.py",
+				"/home/congnt3/workspace/aopt/.gitignore",
+				"/home/congnt3/.config/sublime-text-2/Packages/Abacus/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/web/permission.py",
+				"/home/congnt3/workspace/aopt/.gitreview",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjectsdef.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjects.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+				"/home/congnt3/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/home/congnt3/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/congnt3/workspace/aopt/aopt/__init__.py",
+				"/home/congnt3/workspace/aopt/aopt/devices/scanner/conf.py",
 				"/home/congnt3/workspace/aopt/aopt.sublime-project",
 				"/home/congnt3/workspace/aopt/aopt.sublime-workspace",
-				"/home/congnt3/workspace/aopt/aopt/dao/dao.py",
 				"/home/congnt3/workspace/aopt/.tags",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/devices.py",
 				"/home/congnt3/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/review.html",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/result.html",
 				"/home/congnt3/workspace/aopt/.tags_sorted_by_file",
-				"/home/congnt3/workspace/aopt/aopt/web/views/__init__.py",
 				"/home/congnt3/workspace/aopt/aopt/web/static/style.css",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/run.html",
 				"/home/congnt3/.bashrc",
 				"/home/congnt3/workspace/aopt/.ropeproject/config.py",
 				"/home/congnt3/Desktop/gerrit.bk",
 				"/home/congnt3/workspace/aopt/aopt/web/models/template.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/template.py",
 				"/home/congnt3/workspace/aopt/aopt/web/libs/template.py",
-				"/home/congnt3/workspace/aopt/aopt/web/views/device.py",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/scanner.py",
 				"/home/congnt3/workspace/aopt/aopt/devices/scan_device.py",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/utils.py",
-				"/home/congnt3/workspace/aopt/aopt/web/templates/service/list.html",
-				"/home/congnt3/workspace/aopt/aopt/web/forms.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/layout.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/template/edit.html",
-				"/home/congnt3/workspace/aopt/aopt/web/models/task.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/device/index.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/template/index.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/service/index.html",
@@ -1288,8 +1504,6 @@
 				"/home/congnt3/workspace/aopt/aopt/web/templates/user/updateuser.html",
 				"/home/congnt3/workspace/aopt/aopt/dao/models/user.py",
 				"/home/congnt3/workspace/aopt/run.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/user_dao.py",
-				"/home/congnt3/workspace/aopt/aopt/web/permission.py",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/general/denied.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/device/edit.html",
 				"/home/congnt3/workspace/aopt/aopt/web/templates/general/login.html",
@@ -1306,12 +1520,7 @@
 				"/home/congnt3/workspace/aopt/aopt/web/static/readme.md",
 				"/home/congnt3/workspace/aopt/aopt/web/static/demo.html",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/errors.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/models/workflow.py",
 				"/home/congnt3/workspace/aopt/aopt/web/libs/validator.py",
-				"/home/congnt3/workspace/aopt/aopt/devices/__init__.py",
-				"/home/congnt3/workspace/aopt/aopt/web/models/device.py",
-				"/home/congnt3/workspace/aopt/aopt/web/models/service.py",
-				"/home/congnt3/workspace/aopt/aopt/web/models/__init__.py",
 				"/home/congnt3/workspace/aopt/README",
 				"/home/congnt3/workspace/aopt/aopt/devices/README",
 				"/home/congnt3/workspace/aopt/aopt/devices/scanner/__init__.py",
@@ -1320,9 +1529,6 @@
 				"/media/congnt3/Data/workspace/fptplay/fptplay/templates/site/login.html",
 				"/home/congnt3/workspace/aopt/aopt/.project",
 				"/home/congnt3/workspace/aopt/aopt/web/models/flow.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/dao_exception.py",
-				"/home/congnt3/workspace/aopt/aopt/dao/config.py",
-				"/home/congnt3/workspace/aopt/.gitignore",
 				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/SublimeRope.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/User/SublimeRope.sublime-settings",
 				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/README.markdown",
@@ -1348,13 +1554,7 @@
 				"/home/congnt3/workspace/bacnam/.gitreview",
 				"/home/congnt3/workspace/notserver/test_xhr.py",
 				"/home/congnt3/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
-				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt",
-				"/home/congnt3/workspace/notserver/notserver.sublime-project",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/Default (Linux).sublime-keymap",
-				"/home/congnt3/workspace/notserver/.gitignore",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
-				"/home/congnt3/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
-				"/home/congnt3/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings"
+				"/home/congnt3/workspace/notserver/build/pip-delete-this-directory.txt"
 			],
 			"find":
 			{
@@ -1372,6 +1572,22 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"_time",
+					"group",
+					"job.",
+					"queued",
+					"schedule_time",
+					"%%",
+					"\\",
+					"\", ",
+					"job",
+					"usr_name",
+					"\\r",
+					"session",
+					"side",
+					"= \n",
+					", ",
+					",",
 					"    ",
 					"set",
 					";",
@@ -1484,51 +1700,49 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/contrib/codeassist.py",
+							"file": "aopt/web/views/job.py",
 							"settings":
 							{
-								"buffer_size": 25983,
+								"buffer_size": 321,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										22427,
-										22427
+										320,
+										320
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Python/Python.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Python/Python.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 11767.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjects.py",
+							"file": "aopt/web/views/service.py",
 							"settings":
 							{
-								"buffer_size": 8874,
+								"buffer_size": 6927,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										769,
+										769
 									]
 								],
 								"settings":
@@ -1539,62 +1753,6 @@
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/congnt3/.config/sublime-text-2/Packages/SublimeRope/rope/base/pyobjectsdef.py",
-							"settings":
-							{
-								"buffer_size": 18935,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4123,
-										4123
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1987.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "aopt/web/__init__.py",
-							"settings":
-							{
-								"buffer_size": 1521,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										629,
-										629
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Python/Python.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 315.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1677,7 +1835,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 200.0,
 			"status_bar_visible": true,
-			"window_id": 15,
+			"window_id": 21,
 			"workspace_name": "/home/congnt3/workspace/aopt/aopt.sublime-project"
 		}
 	],
